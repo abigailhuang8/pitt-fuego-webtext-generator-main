@@ -10,7 +10,7 @@ body, html {
 
 .hero-image {
 /* This selector controls the "hero image" class. You may need to change "hero.jpg" name/format to match your asset, or vice-versa */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("background.jpg");
     height: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -41,14 +41,25 @@ body, html {
     color: white;
   }
   
+.cta-buttons {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+  justify-content: center;
+}
+
 .cta-buttons button {
-  background-color: #4a5d4f;
+  background-color: #43bbd6;
   color: white;
   padding: 12px 24px;
   border: none;
   border-radius: 6px;
   font-size: 16px;
   cursor: pointer;
+}
+
+.cta-buttons button:hover {
+  background-color: #3a4a3f;
 }
 
  /* The text-block class selector controls the text-box on screens >800px. You will also need to adjust values in the next text-box selector. */
