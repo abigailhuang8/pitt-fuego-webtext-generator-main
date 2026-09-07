@@ -41,6 +41,15 @@ body, html {
     color: white;
   }
   
+.cta-buttons button {
+  background-color: #4a5d4f;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
 
  /* The text-block class selector controls the text-box on screens >800px. You will also need to adjust values in the next text-box selector. */
 .text-block {
