@@ -5,7 +5,7 @@ body, html {
     margin: 0;
     font-family: roboto;
     color: black;
-    background-color: white;
+    background-color: rgb(224, 247, 255);
   }  
 
 .hero-image {
